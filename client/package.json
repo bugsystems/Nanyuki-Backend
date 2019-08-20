@@ -22,8 +22,7 @@
     "eject": "react-scripts eject",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "proxy": "http://localhost:3000"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "eslintConfig": {
     "extends": "react-app"
