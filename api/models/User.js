@@ -6,11 +6,11 @@ module.exports = (sequelize, type) => {
             autoIncrement: true
         },
         first_name: type.STRING,
-        username : {
+        personnel_phone : {
             type: type.STRING,
             allowNull: false
         },
-        password : {
+        personnel_password : {
             type :type.STRING,
             allowNull: false
         }

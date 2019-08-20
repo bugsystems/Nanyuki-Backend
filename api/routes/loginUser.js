@@ -1,7 +1,3 @@
-// import User from '../sequelize';
-// import jwtSecret from '../config/jwtConfig';
-// import jwt from 'jsonwebtoken';
-// import passport from 'passport';
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const passport = require('passport');

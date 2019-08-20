@@ -18,6 +18,6 @@ app.use(passport.initialize());
 require('./routes/loginUser')(app);
 require('./routes/findUsers')(app);
 
-app.listen(API_PORT, () => console.log('Listening on port '+ ${API_PORT}));
+app.listen(API_PORT, () => console.log('Listening on port ${API_PORT}'));
 
 module.exports = app;
